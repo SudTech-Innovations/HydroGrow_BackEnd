@@ -1,6 +1,5 @@
 package fr.nicolasvinckier.hydrogrow_back.service;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
