@@ -1,5 +1,9 @@
 package fr.nicolasvinckier.hydrogrow_back.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Plant {
 
     public enum PlantType {
@@ -9,6 +13,7 @@ public class Plant {
         FLOWER
     }
 
+    @Id
     private int id;
     private String name;
     private String description;
